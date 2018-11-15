@@ -8,5 +8,13 @@
 </head>
 <body>
 	<h1>Hola Platzi</h1>
+	
+	<form action="login" method="post">
+		Name: <input type="text" name= "name">
+		<br>
+		Password: <input type="password" name= "password">
+		<br>
+		<input type="submit" value="login" style="background-color: yellow;">
+	</form>
 </body>
 </html>
